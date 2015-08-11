@@ -1,0 +1,5 @@
+#!/usr/bin/env php
+<?php
+
+include_once '/system/http/autoload.php';
+new \System\Console\Console();
