@@ -1,0 +1,109 @@
+body
+{
+    margin:           0px;
+    padding:          0px;
+    background-color: #ffffff;
+    font-family:      "Open Sans";
+    font-weight:      normal;
+    font-size:        11px;
+    color:            #555555;
+}
+
+h1, h2, h3
+{
+    margin:      12px 0px;
+    font-weight: lighter;
+    color:       #000000;
+}
+
+div.chList
+{
+    position:         absolute;
+    top:              0px;
+    right:            0px;
+    bottom:           0px;
+    left:             0px;
+    margin:           0px;
+    padding:          0px;
+    width:            286px;
+    height:           100%;
+    background-color: #343842;
+    color:            #cacaca;
+}
+
+div.chList > h1
+{
+    margin:     64px 0px 12px 0px;
+    color:      #ffffff;
+    font-size:  24px;
+    text-align: center;
+}
+
+div.chList > h2
+{
+    margin:     -16px 0px 64px 0px;
+    color:      rgba(255, 255, 255, 0.48);
+    font-size:  16px;
+    text-align: center;
+}
+
+div.chList > h3
+{
+    margin:         36px 0px 6px 18px;
+    font-size:      14px;
+    font-weight:    400;
+    letter-spacing: 0.3px;
+    color:          #f24949;
+}
+
+div.chList > a.menu-item
+{
+    display:          block;
+    position:         relative;
+    margin:           0px 0px 0px 0px;
+    padding:          12px 0px 0px 32px;
+    top:              0px;
+    right:            0px;
+    bottom:           0px;
+    left:             0px;
+    width:            calc(100% - 32px);
+    height:           34px;
+    background-color: transparent;
+    font-size:        16px;
+    font-weight:      normal;
+    color:            #ffffff;
+    text-decoration:  none;
+}
+
+div.chList > a.menu-item:hover,
+div.chList > a.menu-item.active
+{
+    -webkit-transition: background-color 0.5s, color 0.25s;
+    -moz-transition:    background-color 0.5s, color 0.25s;
+    transition:         background-color 0.5s, color 0.25s;
+    background-color:   #2c3038;
+    color:              #f24949;
+}
+
+div.chList > a.menu-item.active
+{
+    background-color: transparent;
+    color:            rgba(255, 255, 255, 0.48);
+}
+
+div.chList > a.menu-item.active:after
+{
+    content:          '';
+    display:          block;
+    position:         absolute;
+    margin:           auto;
+    top:              0px;
+    right:            18px;
+    bottom:           0px;
+    left:             auto;
+    width:            6px;
+    height:           6px;
+    border-radius:    12px;
+    background-color: #ffffff;
+    z-index:          1;
+}
