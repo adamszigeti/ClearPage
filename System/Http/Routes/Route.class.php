@@ -3,7 +3,8 @@
 namespace System\Http\Routes
 {
     /**
-     * Class Route
+     * A possible route for the application.
+     *
      * @package System\Http\Routes
      */
     class Route
@@ -39,9 +40,10 @@ namespace System\Http\Routes
         /**
          * Builds the object.
          *
-         * @param string $path
-         * @param string $calls
-         * @param string $method
+         * @param string $path   The actual path this route avaiable on.
+         * @param string $calls  The controller, and optionally its method
+         *                       this route calls, if fired.
+         * @param string $method The type of this route [get|post]
          */
         public function __construct( $path, $calls, $method )
         {
@@ -52,6 +54,8 @@ namespace System\Http\Routes
         }
 
         /**
+         * Gets the path into a shape we can work with.
+         *
          * @param $path
          * @return array
          */

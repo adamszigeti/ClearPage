@@ -25,12 +25,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="page.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Solutions/Sample/Views/pages/page.php">
+      <file leaf-file-name="Model.class.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/System/Components/Model.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.034428794">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="0.74491394">
+              <caret line="125" column="69" selection-start-line="125" selection-start-column="69" selection-end-line="125" selection-end-column="69" />
+              <folding>
+                <marker date="1438092194555" expanded="true" signature="3315:3375" placeholder="SELECT * FRO..." />
+                <marker date="1438092194555" expanded="true" signature="4372:4386" placeholder="SELECT * FRO..." />
+                <marker date="1438092194555" expanded="true" signature="5324:5425" placeholder="SELECT * FRO..." />
+                <marker date="1438092194555" expanded="true" signature="8331:8364" placeholder="INSERT INTO ..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -43,6 +48,9 @@
         <option value="Html5" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -68,13 +76,10 @@
         <option value="$PROJECT_DIR$/System/Components/Views/includer.php" />
         <option value="$PROJECT_DIR$/Projects/Stories/Views/head.master.php" />
         <option value="$PROJECT_DIR$/Projects/Stories/Views/js/system.js" />
-        <option value="$PROJECT_DIR$/System/Http/Routes/Route.class.php" />
         <option value="$PROJECT_DIR$/System/Data/Mysql.class.php" />
         <option value="$PROJECT_DIR$/Projects/project.info.php" />
-        <option value="$PROJECT_DIR$/System/Http/Routes.class.php" />
         <option value="$PROJECT_DIR$/System/Config/Project.class.php" />
         <option value="$PROJECT_DIR$/Projects/Stories/project.info.php" />
-        <option value="$PROJECT_DIR$/System/Data/Connection.class.php" />
         <option value="$PROJECT_DIR$/System/Data/Connections/Mysql.class.php" />
         <option value="$PROJECT_DIR$/Projects/Stories/Models/Users.class.php" />
         <option value="$PROJECT_DIR$/System/Components/Model.class.php" />
@@ -89,7 +94,6 @@
         <option value="$PROJECT_DIR$/Solutions/Sample/routes.php" />
         <option value="$PROJECT_DIR$/Solutions/Sample/Models/Users.class.php" />
         <option value="$PROJECT_DIR$/System/Config/Data/aliases.php" />
-        <option value="$PROJECT_DIR$/System/Kernel.class.php" />
         <option value="$PROJECT_DIR$/Solutions/Sample/Views/foot.master.php" />
         <option value="$PROJECT_DIR$/Solutions/Sample/Controllers/DefaultController.class.php" />
         <option value="$PROJECT_DIR$/System/Components/View.class.php" />
@@ -98,6 +102,10 @@
         <option value="$PROJECT_DIR$/Solutions/Sample/Views/css/master.css" />
         <option value="$PROJECT_DIR$/Solutions/Sample/Models/Song.class.php" />
         <option value="$PROJECT_DIR$/Solutions/Sample/Views/pages/page.php" />
+        <option value="$PROJECT_DIR$/System/Http/Routes.class.php" />
+        <option value="$PROJECT_DIR$/System/Kernel.class.php" />
+        <option value="$PROJECT_DIR$/System/Http/Routes/Route.class.php" />
+        <option value="$PROJECT_DIR$/System/Data/Connection.class.php" />
       </list>
     </option>
   </component>
@@ -191,7 +199,7 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -214,8 +222,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -234,8 +240,82 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="0.3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ClearPage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="System" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="0.3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ClearPage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="System" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="0.3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ClearPage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="System" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Connections" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="0.3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ClearPage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="System" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -247,7 +327,7 @@
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.23016651" />
   </component>
   <component name="RecentsManager">
@@ -304,13 +384,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="394" y="205" width="1268" height="728" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16773163" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16773163" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32582584" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -324,7 +405,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32582584" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -351,7 +431,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -453,13 +532,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/System/Http/Url.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.6477438">
-          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/System/Config/Aliases.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.4104804">
@@ -502,13 +574,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/System/Http/Routes/Route.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.617931">
-          <caret line="25" column="57" selection-start-line="25" selection-start-column="57" selection-end-line="25" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/System/Console/Console.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.59172416">
@@ -530,39 +595,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/System/Http/Routes.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6662069">
-          <caret line="135" column="60" selection-start-line="135" selection-start-column="60" selection-end-line="135" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/System/Data/Connection.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7268965">
-          <caret line="104" column="9" selection-start-line="104" selection-start-column="9" selection-end-line="104" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/PDO.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.617931">
           <caret line="980" column="20" selection-start-line="980" selection-start-column="20" selection-end-line="980" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/System/Data/Connections/Mysql.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.031724136">
-          <caret line="83" column="19" selection-start-line="83" selection-start-column="19" selection-end-line="83" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/System/Components/Model.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.64827585">
-          <caret line="125" column="69" selection-start-line="125" selection-start-column="69" selection-end-line="125" selection-end-column="69" />
         </state>
       </provider>
     </entry>
@@ -626,13 +662,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.17214398">
           <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/System/Kernel.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.1486698">
-          <caret line="120" column="32" selection-start-line="120" selection-start-column="32" selection-end-line="120" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -703,7 +732,191 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.034428794">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/System/Http/Routes.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.2363067">
+          <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
+          <folding>
+            <marker date="1439300037889" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1439300037889" expanded="true" signature="-1:-1" placeholder=" Class Route ..." />
+            <marker date="1439300037889" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439300037889" expanded="true" signature="-1:-1" placeholder=" Contains all the saved routes to the project. ..." />
+            <marker date="1439300037889" expanded="true" signature="-1:-1" placeholder=" Tells if we already loaded a controller. ..." />
+            <marker date="1439300037889" expanded="true" signature="-1:-1" placeholder=" Checks if the given path is matching the requested URL. ..." />
+            <marker date="1439300037889" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439300037889" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439300037889" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439300037889" expanded="true" signature="-1:-1" placeholder=" Returns a path associated with the specified name. ..." />
+            <marker date="1439300037889" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439300037889" expanded="true" signature="-1:-1" placeholder=" Compares the two path, and only proceed when requirements are met. ..." />
+            <marker date="1439300037889" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439300037889" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439300037889" expanded="true" signature="-1:-1" placeholder=" The variable that contains all the variables to be passed ..." />
+            <marker date="1439300037889" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439300037889" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439300037889" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439300037889" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439300037889" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/System/Kernel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.2018778">
+          <caret line="108" column="66" selection-start-line="108" selection-start-column="66" selection-end-line="108" selection-end-column="66" />
+          <folding>
+            <marker date="1439300897554" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1439300897554" expanded="true" signature="-1:-1" placeholder=" Responsible for the automatic loading of the controllers, and ..." />
+            <marker date="1439300897554" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439300897554" expanded="true" signature="-1:-1" placeholder=" @var array The parameters, that were left after resolving all the dependencies. ..." />
+            <marker date="1439300897554" expanded="true" signature="-1:-1" placeholder=" Intelligently loads an action. The action to be executed should be ..." />
+            <marker date="1439300897554" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439300897554" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439300897554" expanded="true" signature="-1:-1" placeholder=" Instantiates a given class, with an optional array of parameters. ..." />
+            <marker date="1439300897554" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439300897554" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439300897554" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439300897554" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439300897554" expanded="true" signature="-1:-1" placeholder=" Intelligently loads a method. ..." />
+            <marker date="1439300897554" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439300897554" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439300897554" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439300897554" expanded="true" signature="-1:-1" placeholder=" Extracts an action into class and method. ..." />
+            <marker date="1439300897554" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439300897554" expanded="true" signature="-1:-1" placeholder=" Resolves the parameters by the dependencies. ..." />
+            <marker date="1439300897554" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439300897554" expanded="true" signature="-1:-1" placeholder=" @var array $args The array of resolved parameters to pass on the main class. ..." />
+            <marker date="1439300897554" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439300897554" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439300897554" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439300897554" expanded="true" signature="-1:-1" placeholder=" Resolves any primitive dependency. ..." />
+            <marker date="1439300897554" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439300897554" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439300897554" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/System/Http/Routes/Route.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.86228484">
+          <caret line="63" column="27" selection-start-line="63" selection-start-column="27" selection-end-line="63" selection-end-column="27" />
+          <folding>
+            <marker date="1439301229260" expanded="true" signature="-1:-1" placeholder=" A possible route for the application. ..." />
+            <marker date="1439301229260" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439301229260" expanded="true" signature="-1:-1" placeholder=" Contains the originally passed route path. ..." />
+            <marker date="1439301229260" expanded="true" signature="-1:-1" placeholder=" Contains the path, this route is answering to. ..." />
+            <marker date="1439301229260" expanded="true" signature="-1:-1" placeholder=" Contains the controller and the method, this route fires. ..." />
+            <marker date="1439301229260" expanded="true" signature="-1:-1" placeholder=" Contains the method, this route can be accessed on. ..." />
+            <marker date="1439301229260" expanded="true" signature="-1:-1" placeholder=" Builds the object. ..." />
+            <marker date="1439301229260" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439301229260" expanded="true" signature="-1:-1" placeholder=" Gets the path into a shape we can work with. ..." />
+            <marker date="1439301229260" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439301229260" expanded="true" signature="-1:-1" placeholder=" Returns with the parts of this route's path. ..." />
+            <marker date="1439301229260" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439301229260" expanded="true" signature="-1:-1" placeholder=" Returns the controller and method this route calls. ..." />
+            <marker date="1439301229260" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439301229260" expanded="true" signature="-1:-1" placeholder=" Returns the method, which this method can be fired on. ..." />
+            <marker date="1439301229260" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439301229260" expanded="true" signature="-1:-1" placeholder=" Returns with the original path of this route. ..." />
+            <marker date="1439301229260" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/System/Http/Url.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.58372456">
+          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+          <folding>
+            <marker date="1430820184448" expanded="true" signature="-1:-1" placeholder=" Provides access to both the browser's requested URL, and the ..." />
+            <marker date="1430820184448" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1430820184448" expanded="true" signature="-1:-1" placeholder=" By the singleton pattern, contains the only instance ..." />
+            <marker date="1430820184448" expanded="true" signature="-1:-1" placeholder=" Contains the results of the requested URL parsed array. ..." />
+            <marker date="1430820184448" expanded="true" signature="-1:-1" placeholder=" Contains the result array of the POST URL request. ..." />
+            <marker date="1430820184448" expanded="true" signature="-1:-1" placeholder=" By the singleton pattern, this returns with the one and only instance ..." />
+            <marker date="1430820184448" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1430820184448" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1430820184448" expanded="true" signature="-1:-1" placeholder=" Builds the object. ..." />
+            <marker date="1430820184448" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1430820184448" expanded="true" signature="-1:-1" placeholder=" Returns with the parsed URL request. ..." />
+            <marker date="1430820184448" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1430820184448" expanded="true" signature="-1:-1" placeholder=" Returns with the parsed POST URL request. ..." />
+            <marker date="1430820184448" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1430820184448" expanded="true" signature="-1:-1" placeholder=" Creates the result array from the requested url. ..." />
+            <marker date="1430820184448" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1430820184448" expanded="true" signature="-1:-1" placeholder=" Creates the result array from the POST data. ..." />
+            <marker date="1430820184448" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/System/Data/Connection.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.9968702">
+          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+          <folding>
+            <marker date="1439301305199" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439301305199" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439301305199" expanded="true" signature="-1:-1" placeholder=" The type of the connection [only mysql - for now]. ..." />
+            <marker date="1439301305199" expanded="true" signature="-1:-1" placeholder=" The host of the connection. ..." />
+            <marker date="1439301305199" expanded="true" signature="-1:-1" placeholder=" The database you want to access to. ..." />
+            <marker date="1439301305199" expanded="true" signature="-1:-1" placeholder=" The username for the connection. ..." />
+            <marker date="1439301305199" expanded="true" signature="-1:-1" placeholder=" The password for the connection. ..." />
+            <marker date="1439301305199" expanded="true" signature="-1:-1" placeholder=" @param string $type         Optional. The type of the connection [mysql - for now]. ..." />
+            <marker date="1439301305199" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439301305199" expanded="true" signature="-1:-1" placeholder=" @return string ..." />
+            <marker date="1439301305199" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439301305199" expanded="true" signature="-1:-1" placeholder=" @return string ..." />
+            <marker date="1439301305199" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439301305199" expanded="true" signature="-1:-1" placeholder=" @return string ..." />
+            <marker date="1439301305199" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439301305199" expanded="true" signature="-1:-1" placeholder=" @return string ..." />
+            <marker date="1439301305199" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439301305199" expanded="true" signature="-1:-1" placeholder=" @return string ..." />
+            <marker date="1439301305199" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/System/Data/Connections/Mysql.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7245696">
+          <caret line="83" column="19" selection-start-line="83" selection-start-column="19" selection-end-line="83" selection-end-column="19" />
+          <folding>
+            <marker date="1437910149026" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1437910149026" expanded="true" signature="-1:-1" placeholder=" Collection of methods, which lets you interact with your ..." />
+            <marker date="1437910149026" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1437910149026" expanded="true" signature="-1:-1" placeholder=" The array containing all the queries we want to execute. ..." />
+            <marker date="1437910149026" expanded="true" signature="-1:-1" placeholder=" The connection, we want to execute the queries on. ..." />
+            <marker date="1437910149026" expanded="true" signature="-1:-1" placeholder=" @param Connection $dbConnection An instance of a connection. ..." />
+            <marker date="1437910149026" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1437910149026" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1437910149026" expanded="true" signature="-1:-1" placeholder=" Prepares and executes a simple query on the database, with no ..." />
+            <marker date="1437910149026" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1437910149026" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1437910149026" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1437910149026" expanded="true" signature="-1:-1" placeholder=" Returns with the array of fetched mysql rows. ..." />
+            <marker date="1437910149026" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1437910149026" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/System/Components/Model.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.74491394">
+          <caret line="125" column="69" selection-start-line="125" selection-start-column="69" selection-end-line="125" selection-end-column="69" />
+          <folding>
+            <marker date="1438092194555" expanded="true" signature="3315:3375" placeholder="SELECT * FRO..." />
+            <marker date="1438092194555" expanded="true" signature="4372:4386" placeholder="SELECT * FRO..." />
+            <marker date="1438092194555" expanded="true" signature="5324:5425" placeholder="SELECT * FRO..." />
+            <marker date="1438092194555" expanded="true" signature="8331:8364" placeholder="INSERT INTO ..." />
+          </folding>
         </state>
       </provider>
     </entry>

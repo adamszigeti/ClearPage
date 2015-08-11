@@ -9,7 +9,10 @@ namespace System
     use System\Config\Projects;
     
     /**
-     * Class Kernel
+     * Responsible for the automatic loading of the controllers, and
+     * resolving all their dependencies, defined in their constructors',
+     * or methods' parameters.
+     *
      * @package System
      */
     class Kernel
@@ -50,6 +53,8 @@ namespace System
          */
         private static function loadClass( $className )
         {
+            // We replace the "App" keyword in the namespace to the active
+            // solution's name.
             $className = strtr( $className, [ 'App' => Projects::get()->active() ] );
             try
             {
@@ -61,6 +66,7 @@ namespace System
                 exit;
             }
 
+            // We get the constructor.
             $constructor = $reflector->getConstructor();
 
             // If the constructor is null, that means we have no dependencies
@@ -70,7 +76,11 @@ namespace System
                 return $reflector->newInstance();
             }
 
+            // If there is constructor, we need to resolve all its
+            // dependencies (if any).
             $args = self::resolveParameters( $constructor->getParameters() );
+
+            // Finally, instantiate the class.
             return $reflector->newInstanceArgs( $args );
         }
 
@@ -93,7 +103,10 @@ namespace System
                 exit;
             }
 
+            // We try to resolve the method's parameters.
             $args = self::resolveParameters( $reflector->getParameters() );
+
+            // We are done and loaded, returning to the main flow:
             return $reflector->invokeArgs( $instance, $args );
         }
 
@@ -148,6 +161,12 @@ namespace System
             return $args;
         }
 
+        /**
+         * Resolves any primitive dependency.
+         *
+         * @param \ReflectionParameter $dependency The actual dependency we want to resolve.
+         * @return mixed
+         */
         private static function resolvePrimitive( \ReflectionParameter $dependency )
         {
             // If we have a value for this primitive dependency, then we just

@@ -8,7 +8,7 @@ namespace System\Data
     class Connection
     {
         /**
-         * The type of the connection [mysql - for now].
+         * The type of the connection [only mysql - for now].
          * @var string
          */
         private $type;
@@ -97,12 +97,5 @@ namespace System\Data
         {
             return $this->userPassword;
         }
-
-        /*
-        public function __toString()
-        {
-            return 'aaa';
-        }
-        */
     }
 }

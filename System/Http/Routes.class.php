@@ -50,12 +50,10 @@ namespace System\Http
             // We only proceed from this point, when we didn't load
             // a controller yet. If we did, we have nothing to do
             // with this route anymore.
-            if ( self::$loadedOnce )
+            if ( !self::$loadedOnce )
             {
-                return;
+                self::checkUrlMatch( $route );
             }
-
-            self::checkUrlMatch( $route );
         }
 
         /**
